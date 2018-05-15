@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>The Greatest Saiyan</title>
+		<meta name="description" content="">	
+	</head>
+	<body>
+		<h1>Son Goku</h1>
+		<img id="portrait" src="goku.jpg" alt="Son Goku" width="400px" height="300px">
+		<p>
+			Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus fringilla, libero tempus pulvinar malesuada, sem mi finibus lectus, nec fringilla enim enim condimentum massa. Quisque laoreet vulputate tellus vel dapibus. Etiam in mollis elit. Praesent luctus tincidunt ligula, a rutrum sem porta quis. Donec sed lacus maximus, tincidunt nibh id, egestas magna. Donec orci arcu, posuere sagittis nunc ut, pulvinar interdum quam. Sed condimentum ipsum eu quam scelerisque, et pellentesque elit consectetur. Phasellus euismod dui sed sollicitudin fringilla. Curabitur ut dapibus erat. Donec eget dolor pharetra, sodales urna fermentum, mollis justo. Quisque vestibulum quam at est aliquam, nec tincidunt erat porttitor.
+		</p>
+		<table>
+			<thead>
+				<tr>
+					<th>Fought against</th>
+					<th>Win/Loss</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td>Freiza</td>
+					<td>Win</td>
+				</tr>
+				<tr>
+					<td>Androids</td>
+					<td>Loss</td>
+				</tr>
+				<tr>
+					<td>Cell</td>
+					<td>Won</td>
+				</tr>
+				<tr>
+					<td>Buu</td>
+					<td>Won</td>
+				</tr>
+			</tbody>
+		</table>
+		<ul>
+			<li>Freiza still destroyed Namek</li>
+			<li>The Androids poisoned me beforehand</li>
+			<li>Cell kills me in the end</li>
+		</ul>
+		<a href="https://www.youtube.com/watch?v=5O7ozeRuPeI">I owned this kid</a>
+		
+		<br>
+
+		<form action="process.php" method="post">
+			<h1>Preash take this survey</h1>
+			<label for="email">Email:</label>
+			<input type="text" id="email" name="email">
+
+			<label for="email">Email me!</label>
+			<input type="radio" id="email" name="email" value="email">
+
+			<label for="do_no_email">Don't email!</label>
+			<input type="radio" id="decline" name="emai<l" value="decline">
+
+			<h3>
+				<label for="who_to_fight">Who to fight?</label>
+			</h3>
+			
+			<select name="who_to_fight">
+				<option value="vegeta">Vegeta</option>
+				<option value="chichi">Chichi</option>
+				<option value="gohan">Gohan</option>
+				<option value="beerus">Beerus</option>
+				<option value="krillin">Krillin</option>
+			</select>
+
+			<p>
+				<h1>WHERE TO FIGHT!</h1>
+					<h3>(may choose more than one!)</h3>
+						<label for="namek">Namek</label>
+						<input type="checkbox" id="namek" name="planet" value="namek">
+						<label for="earth">Earth</label>
+						<input type="checkbox" id="earth" name="planet" value="earth">
+						<label for="king_kais_planet">King Kai's Planet</label>
+						<input type="checkbox" id="king_kais_planet" name="planet" value="king_kais_planet">
+			</p>
+			
+			<p>Other thoughts/comments</p>
+				
+				<textarea name="description"></textarea>
+			<p>
+				<input type="submit" value="Submit">
+			</p>
+		</form>
+	</body>
+</html>
